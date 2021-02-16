@@ -11,6 +11,26 @@
 
 ## Malware Tools
 
-## Full Forensic Suites
+- [X64dbg](https://github.com/x64dbg/x64dbg)
+  - Debugger for Windows systems
+  - Useful for stepping through malware or patching
+- [CFF Explorer](https://ntcore.com/?page_id=388)
+  - Portable Executable / Executable analysis
+  - Useful for DLL viewing, Imported Libraries
+  - Built in hex editor and unpacker
+
+## File System Forensics
+
+## Operating System Forensics
+
+## Image and Video Tools
+
+### Image Tools
+
+### Video Tools
 
 ## Network Tools
+
+## Packing and Compression Tools
+
+## Full Forensic Suites
