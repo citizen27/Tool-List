@@ -7,7 +7,49 @@
 - [wxHexEditor](https://www.wxhexeditor.org/)
   - For Linux, Windows and MacOS
 
+## Network Tools
+
+- Wireshark
+- Network Miner
+- NMAP
+  - Zenmap
+
 ## Monitoring Tools
+
+- SysInternals
+  - ProcMon
+  - ProcExp
+
+## File System Forensics
+
+## Operating System Forensics
+
+- Registry Tools
+  - RECmd
+  - RegShot
+- Zimmerman Tools
+  - RBCmd
+  - PECmd
+  - LECmd
+  - JLECmd
+  - KAPE
+- Rifiuti
+  - Vista and 2
+
+## Memory Forensics
+
+- Memory Capture
+  - WinPMem
+    - Windows
+  - Belkasoft Live RAM Capturer
+    - Windows
+  - Magnet Ram Capture
+    - Windows
+- Memory Analysis
+  - YARA
+  - Volatility
+    - V2.5 for Workbench
+    - V2.6 for CLI
 
 ## Malware Tools
 
@@ -18,19 +60,59 @@
   - Portable Executable / Executable analysis
   - Useful for DLL viewing, Imported Libraries
   - Built in hex editor and unpacker
+- APIMonitor
+- PEStudio
+- Resource Hacker
+- Detect It Easy
 
-## File System Forensics
-
-## Operating System Forensics
+  -
 
 ## Image and Video Tools
 
-### Image Tools
+- Image Tools
+  - here
+- Video Tools
+  - here
 
-### Video Tools
+-
 
-## Network Tools
+    -
 
-## Packing and Compression Tools
+## Anti Forensics
+
+- Evidence Eliminator
+
+## Packing and Compression
+
+- UPX
+- Detect It Easy
+- 7zip
+
+## Hashing
+
+- HashCheck
+- HashMyFiles
+
+## Removable Media
+
+- USBDetective
+
+## Database Analysis
+
+- DB Browser for SQLite
 
 ## Full Forensic Suites
+
+- FTK Imager
+  - (Kind of)
+- Autopsy
+- EnCAse
+- XWays
+- Axiom Cellebrite
+
+## General Tools
+
+- Dd
+- D3cdd
+- Powershell
+- Command Line
