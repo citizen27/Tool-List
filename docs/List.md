@@ -14,7 +14,6 @@
   - Supports Gutmann Method, as well as DoD Short and 5220.22
   - Many options for network wide deployment or pass settings
 - [Nwipe](https://github.com/martijnvanbrummelen/nwipe)
-  - Link git?
   - Command line utility
 - [WinDirStat](https://windirstat.net/)
   - Disk usage statistic viewer and cleanup tool
