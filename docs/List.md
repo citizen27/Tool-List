@@ -14,7 +14,7 @@
   - Supports Gutmann Method, as well as DoD Short and 5220.22
   - Many options for network wide deployment or pass settings
 - [Nwipe](https://github.com/martijnvanbrummelen/nwipe)
-  - Command line utility
+  - Command line utility for wiping
 - [WinDirStat](https://windirstat.net/)
   - Disk usage statistic viewer and cleanup tool
 
@@ -58,8 +58,10 @@
   - On the fly hashing
   - Pattern wiping
   - Writing errors to file
-- Dd
-- FTK Imager
+- dd
+- [FTK Imager](https://accessdata.com/products-services/forensic-toolkit-ftk/ftkimager#:~:text=FTK%C2%AE%20Imager%20is%20a,%C2%AE%20(FTK)%20is%20warranted.)
+  - Imaging software of creating disk images with hash validation
+  - Also useful for recovering simple deleted files from personal machine or image
 - Powershell
 
 ## Hashing
@@ -67,7 +69,7 @@
 - [HashCheck](https://github.com/gurnec/HashCheck)
   - Calculate and verify checksums from Windows Explorer
 - [HashMyFiles](https://www.nirsoft.net/utils/hash_my_files.html)
-  - NirSofttool to calculate MD5 and SHA1 hashes
+  - NirSoft tool to calculate MD5 and SHA1 hashes
 
 ## Hex Editors
 
@@ -139,81 +141,120 @@
 
 ## Network Tools
 
-- Angry IP Scanner
-- GNS3
-  - Open Source Packet Tracer
-- Nagios
-  - Network Scanner for DevOps culture
-- Network Miner
-- NMAP
-  - Zenmap
-- OpenVAS
-  - Open Source Nessus
-- Wireshark
+- [Angry IP Scanner](https://angryip.org/)
+  - Scans any specified IP range or network by network mask
+  - Runs on Linux, MacOS and Windows
+- [GNS3](https://www.gns3.com/software)
+  - Build and deploy test networks that are completely virtualized
+  - Similar to Cisco Packet Tracer
+- [Network Miner](https://www.netresec.com/?page=NetworkMiner)
+  - Passive network scanner / network forensic tool
+  - Intuitive UI
+- [NMAP](https://nmap.org/)
+  - Network discovery and basic vulnerability scanner
+  - Full suite includes Zenmap, Ncat, Ndiff and Nping
+- [OpenVAS](https://www.openvas.org/)
+  - Full featured vulnerability scanner across networks
+  - Can run large scale scans and has internal programming language
+- [Wireshark](https://www.wireshark.org/)
+  - Network protocol analyzer
+  - Supports both live capture and offline analysis
+  - Widely used in all IT industries
 
 ## Operating System Forensics
 
-- Registry Tools
-  - RECmd
-  - RegShot
-- Rifiuti
-  - Vista and 2
+- [RegShot](https://sourceforge.net/projects/regshot/)
+  - Registry comparison utility
+- [Rifiuti](https://abelcheung.github.io/rifiuti2/)
+  - Recycle Bin analysis
+  - Supported through multiple versions of Windows (95 to 10)
 - [Zimmerman Tools](https://ericzimmerman.github.io/#!index.md)
-  - JLECmd
+  - All of Eric Zimmerman&#39;s tools are absolutely wonderful, and the full list is linked above, but below are the tools I have found most useful.
+  - [JLECmd](https://github.com/EricZimmerman/JLECmd)
     - JumpList artifact parser
-  - KAPE
+  - [KAPE](https://www.kroll.com/en/services/cyber-risk/incident-response-litigation-support/kroll-artifact-parser-extractor-kape)
     - Collection and processing of files, super fast
-  - LECmd
+  - [LECmd](https://github.com/EricZimmerman/LECmd)
     - LNK file parser
-  - PECmd
+  - [PECmd](https://github.com/EricZimmerman/PECmd)
     - Prefetch file parser
-  - RBCmd
+  - [RBCmd](https://github.com/EricZimmerman/RBCmd)
     - Recycle Bin parser
-  - There are many more, I just have found these the most useful in my experience
+  - [RECmd](https://github.com/EricZimmerman/RECmd)
+    - Windows Registry modifier and examiner
 
 ## Packing and Compression
 
-- 7zip
-- Detect It Easy
-- UPX
+- [7-Zip](https://www.7-zip.org/)
+  - Compression utility widely used
+- [Detect It Easy](https://github.com/horsicq/Detect-It-Easy)
+  - File type determiner
+  - Also finds out entropy, strings and hashes
+- [UPX](https://upx.github.io/)
+  - Compression and decompression of files with no memory overhead
 
 ## Passwords
 
-- Aircrack-ng
-- Cain and abel
-- Hashcat
-- Hydra
-- John the ripper
-- Ncrack
+- [Aircrack-NG](https://www.aircrack-ng.org/)
+  - Wi-Fi network security tester with monitoring, attacking, testing and cracking modes
+- [Hashcat](https://hashcat.net/hashcat/)
+  - Password cracker
+  - Very fast and robust supporting over 300 hashing algorithms
+- [Hydra](https://tools.kali.org/password-attacks/hydra)
+  - Kali Linux built in program for password and login breaking based off of wordlists
+- [John](https://www.openwall.com/john/)
+  - John and John The Ripper
+  - Password security auditing and recovery
+- [Ncrack](https://nmap.org/ncrack/)
+  - Fast network authentication cracking tool
 - [NirSoft Password Utilities](https://www.nirsoft.net/password_recovery_tools.html)
   - Hyper-specific tools for niche password recovery / extractions
+- [Ophcrack](https://ophcrack.sourceforge.io/)
+  - Rainbow table based password cracker for Windows
+- [Rainbowcrack](http://project-rainbowcrack.com/)
+  - Hash cracker based off of rainbow tables
+  - Supports AMD and NVIDIA GPU acceleration
 
 ## Randomization
 
-- ISAAC
-- Mersenne Twister
+- [ISAAC](https://en.wikipedia.org/wiki/ISAAC_(cipher))
+  - Pseudorandom number generator and stream cipher
+- [Mersenne Twister](https://en.wikipedia.org/wiki/Mersenne_Twister)
+  - Pseudorandom number generator
+  - More widely used than ISAAC
 
 ## Removable Media
 
-- Rufus
-- USBDetective
+- [Rufus](https://rufus.ie/)
+  - Create bootable disk images from ISOs
+- [USBDetective](https://usbdetective.com/)
+  - Process USB artifacts for all versions of Windows
 
 ## OSINT
 
-- DNS Dumpster
-- Intelx.io
-- Metagoofil
-
-- ophcrack
-- rainbowcrack
-
-- Spokeo
-- Thatsthem.com
-- Theharvester
+- [DNS Dumpster](https://dnsdumpster.com/)
+  - Discovers hosts related to domains
+  - Only shows visible hosts for the domain
+- [Intelx.io](https://intelx.io/)
+  - Search engine for darknet, private servers and more
+- [Metagoofil](https://github.com/laramies/metagoofil)
+  - Metadata extractor for public documents from target websites
+- [Spokeo](https://www.spokeo.com/)
+  - People finder
+  - Essentially open source White Pages
+- [Thatsthem.com](https://thatsthem.com/)
+  - Similar to Spokeo
+- [TheHarvester](https://github.com/laramies/theHarvester)
+  - Early stage red team engagement for assessing threat landscape
 
 ## Vulnerability reference
 
-- exploitdb
-- MITRE
-- OWASP
-- VulnHub
+- [Exploit-db](https://www.exploit-db.com/)
+  - Exploit database for pentesters and researchers
+- [MITRE](https://attack.mitre.org/)
+  - Attack framework for enterprise, personal, and virtual networks
+- [OWASP](https://owasp.org/)
+  - Open Web Application Security Project
+  - Identifies most common vulnerabilities for web applications
+- [VulnHub](https://www.vulnhub.com/)
+  - Purposely vulnerable virtual machines for practice and testing
