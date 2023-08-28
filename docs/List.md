@@ -1,12 +1,24 @@
 # Open Source-ish Tool List
 
-## Database Analysis
+## Database Browsing and Analysis
 
 - [DB Browser for SQLite](https://sqlitebrowser.org/)
   - Visual tool to create and edit database files with SQlite databases
   - Plug and play SQL commands for indexing and searching
+- [DBeaver](https://dbeaver.io/)
+  - A versatile database tool that supports multiple databases and provides a user-friendly interface for viewing, querying, and managing database systems.
+  - Supports SQL Variants and Apache Family databases
+  - Licensed version supports more databses (MongoDB, BigQuery)
+- [DBVisualizer](https://www.dbvis.com/)
+  - Database management and analyiss tool, offers a pleasing visual interface
+  - Supports an immense amount of database structures
+- [pgAdmin](https://www.pgadmin.org/)
+  - A comprehensive administration and management platform specifically designed for PostgreSQL databases. It offers advanced features for database development and maintenance.
+- [MySQL Workbench](https://www.mysql.com/products/workbench/)
+  - An official graphical tool provided by MySQL for database design, development, and administration. It supports MySQL databases and offers visual modeling features.
 
 ## Deletion Utilities
+
 
 - [CCleaner](https://www.ccleaner.com/)
   - Free version does standard cleaning, but there are much better utilities
