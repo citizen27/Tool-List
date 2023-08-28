@@ -1,5 +1,3 @@
-# Open Source-ish Tool List
-
 ## Database Browsing and Analysis
 
 - [DB Browser for SQLite](https://sqlitebrowser.org/)
