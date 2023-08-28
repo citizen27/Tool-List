@@ -59,9 +59,22 @@
 ## Full Forensic Suites
 
 - [Autopsy](https://www.autopsy.com/)
-  - Full forensic suite with lots of functionality
-  - File carving and registry hive extraction
-  - Linux, Windows, Android and iOS image support
+  - An open-source digital forensics platform that provides a web-based interface and supports a wide range of forensic tasks, including disk imaging, keyword searching, timeline analysis, and more.
+
+- [SANS SIFT Workstation](https://digital-forensics.sans.org/community/downloads)
+  - A collection of open-source tools designed for forensic practitioners. It includes various tools for digital evidence processing and analysis.
+
+- [CAINE (Computer Aided INvestigative Environment)](https://www.caine-live.net/)
+  - A Linux distribution focused on digital forensics and incident response. It includes a range of open-source tools for various forensic tasks.
+
+- [PALADIN](https://sumuri.com/software/paladin/)
+  - A Linux distribution specifically designed for digital forensics and incident response. It comes with a suite of open-source tools and is known for its ease of use.
+
+- [Sleuth Kit with Autopsy](https://www.sleuthkit.org/autopsy/)
+  - The Sleuth Kit, coupled with the Autopsy graphical interface, provides a powerful open-source solution for digital forensics investigations.
+
+- [DFIR ORC](https://dfir-orc.github.io/)
+  - A collection of open-source digital forensics tools packaged together for easy installation and usage. It focuses on automation and efficiency.
 
 ## General Tools
 
